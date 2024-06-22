@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Game</title>
+    <link rel="stylesheet" href="../IQ&EQTracker/IQ&EQTracker.css">
+</head>
+<body>
+    <button class="back-button" onclick="goBack()">Back</button>
+
+    <div class="container">
+        <h1>Trading Game</h1>
+        <div class="balance">
+            <p>Balance: <span id="balance">RM 1000.00</span></p>
+        </div>
+        <div class="market">
+            <label for="stock-select">Select Stock:</label>
+            <select id="stock-select">
+                <option value="AAPL">Apple Inc. (AAPL)</option>
+                <option value="GOOGL">Alphabet Inc. (GOOGL)</option>
+                <option value="AMZN">Amazon.com Inc. (AMZN)</option>
+                <!-- Add more options as needed -->
+            </select>
+            <p>Stock Price: <span id="stock-price">Loading...</span></p>
+        </div>
+        <div class="actions">
+            <button id="buy-btn">Buy</button>
+            <button id="sell-btn">Sell</button>
+        </div>
+        <div class="holdings">
+            <p>Stocks Owned: <span id="stocks-owned">0</span></p>
+        </div>
+    </div>
+    <script src="../IQ&EQTracker/IQ&EQTracker.js"></script>
+</body>
+</html>

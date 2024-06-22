@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#game-board {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#turn-message {
+    font-size: 1.2em;
+}
+
+#reset-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.back-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #495057;
+}
